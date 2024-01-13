@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  @font-face {
+    font-family: Bold;
+    src: url(./fonts/Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Light;
+    src: url(./fonts/Light.ttf);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Light;
+    scroll-behavior: smooth;
+    background-color: black;
+  }
+  
+  .background1 {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    background: url(./images/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -210px;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 80px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .left {
+    padding-left: 30px;
+    color: #ffffff;
+  }
+  
+  .left ul {
+    display: flex;
+  }
+  
+  .navItem {
+    padding-left: 20px;
+    font-family: Bold;
+    font-size: 14px;
+    text-align: start;
+    line-height: 24px;
+    list-style: none;
+  }
+  
+  .navItem3 {
+    padding-left: 20px;
+    font-family: Bold;
+    font-size: 14px;
+    text-align: start;
+    line-height: 24px;
+    list-style: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    z-index: -1;
+    cursor: pointer;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navItem3:hover .dropdown {
+    display: block;
+    z-index: 1;
+  }
+  
+  .dropdown li:hover {
+    border-radius: 5px;
+    background-color: #0087ff;
+    color: #ffffff;
+  }
+  
+  .right {
+    padding-right: 10px;
+    color: #ffffff;
+  }
+  
+  .right ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem2 {
+    padding-right: 30px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Bold;
+    color: #ffffff;
+  }
+  
+  .downloadButton {
+    list-style: none;
+    background-color: #0087ff;
+    border-radius: 50px;
+    font-family: Bold;
+    font-weight: 600;
+    width: 200px;
+    color: #ffffff;
+    height: 52px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+  }
