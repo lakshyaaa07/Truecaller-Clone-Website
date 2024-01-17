@@ -20,14 +20,14 @@
     padding: 0;
     font-family: Light;
     scroll-behavior: smooth;
-    background-color: black;
+    /* background-color: black; */
   }
   
   .background1 {
     width: 100%;
     height: 630px;
     position: relative;
-    background: url(./images/banner.jpg) no-repeat;
+    background: url(./images/truecaller_bg.png) no-repeat;
     background-size: cover;
     background-position-y: -210px;
   }
@@ -41,6 +41,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+
   }
   
   .left {
@@ -131,3 +132,145 @@
     padding-bottom: 20px;
     padding-left: 17px;
   }
+
+  .mainTitle {
+    margin-left: 312px;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    justify-content: space-between;
+    margin-right: 312px;
+    margin-top: 110px;
+    background-color: #2bc01400;
+  }
+  
+  .mTitle {
+    text-align: left;
+    width: 45%;
+    line-height: 67.5px;
+    font-weight: 80%;
+    font-size: 60px;
+    font-family: Bold;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  
+  .searchBar {
+    background-color: #f8fcfe;
+    width: 550px;
+    height: 90px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .searchInput {
+    width: 375px;
+    height: 88px;
+    border: none;
+    font-size: 16px;
+    text-align: start;
+    outline: 0;
+  }
+  
+  .searchBar h3 {
+    font-family: Bold;
+    font-size: 14px;
+    color: #0087ff;
+  }
+  
+  .searchBar i {
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    margin-right: -15px;
+    text-align: center;
+    padding-top: 24px;
+    color: #ffffff;
+    background-color: #0087ff;
+    border-radius: 50%;
+  }
+  
+  .store {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+  }
+  
+  .storeItem {
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-family: Bold;
+    width: 140px;
+    height: 54px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .storeItem2 {
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-family: Bold;
+    width: 170px;
+    height: 54px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .storeLeft {
+    margin-right: -10px;
+  }
+  
+  .storeRight {
+    display: flex;
+    flex-direction: column;
+    font-family: Bold;
+    letter-spacing: normal;
+    font-size: 14px;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .posterBg {
+    width: 100%;
+    height: 136px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .poster {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+  }
+  
+  .poster img {
+    width: auto;
+    height: 40px;
+    padding-right: 48px;
+  }
+  
+  .background2 {
+    background-color: #f4f7f9;
+    width: 100%;
+    position: relative;
+    height: 80vh;
+  }
+  
