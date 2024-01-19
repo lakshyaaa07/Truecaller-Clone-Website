@@ -274,3 +274,234 @@
     height: 80vh;
   }
   
+  .serviceMainTitle {
+    font-size: 40px;
+    font-family: Bold;
+    text-align: center;
+    padding-top: 85px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 48px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 312px;
+    margin-right: 312px;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 288px;
+    height: 357px;
+    padding: 10px;
+    justify-items: center;
+  }
+  
+  .service img {
+    width: 188px;
+    height: 189px;
+    padding: 30px;
+  }
+  
+  .serviceTitle {
+    font-family: Bold;
+    letter-spacing: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .serviceSubText {
+    font-size: 14px;
+    font-family: Light;
+    color: black;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 24px;
+  }
+
+  .background3 {
+    background-color: #f4f7f9;
+  
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+  
+  .bg3Box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .bg3Left {
+    height: 526.8px;
+    width: 690px;
+  }
+  
+  .bgTitle {
+    color: #0087ff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bold;
+    text-transform: uppercase;
+    line-height: 22.5px;
+    text-align: start;
+    letter-spacing: normal;
+  }
+  
+  .bgSubTitle {
+    font-size: 48px;
+    font-family: Bold;
+    letter-spacing: -0.67px;
+    text-align: start;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 90%;
+    font-weight: 900;
+    line-height: 49px;
+  }
+  
+  .bgText {
+    font-size: 16px;
+    font-family: Light;
+    line-height: 28px;
+    letter-spacing: normal;
+    text-align: start;
+    width: 70%;
+  }
+  
+  .features {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+  }
+  
+  .feature {
+    display: flex;
+    height: 63px;
+    text-align: start;
+    padding: 14px;
+    border-radius: 4px;
+  }
+  
+  .featureText {
+    padding-left: 24px;
+  }
+  
+  .featureTitle {
+    font-family: Bold;
+    line-height: 17.6px;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  
+  .featureSubText {
+    font-family: light;
+    font-size: 12px;
+    line-height: 13.5px;
+    text-align: left;
+    letter-spacing: normal;
+  }
+  
+  .feature:hover {
+    background-color: #ffffff;
+  }
+  
+  .seeall {
+    margin-top: 30px;
+    font-family: Bold;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: start;
+    color: #0087ff;
+  }
+  
+  .bg3Right img {
+    width: 270px;
+    height: 576.17px;
+    background-size: cover;
+  }
+  
+  .feature i {
+    position: absolute;
+    padding-left: 20%;
+    width: 5px;
+    height: 5px;
+    color: #33b73e00;
+    padding-top: 10px;
+  }
+  
+  .feature:hover #fIcon {
+    color: #0087ff;
+    z-index: 1;
+  }
+  
+  .bg3Right {
+    width: 270px;
+    height: 577px;
+  }
+  
+  .f1pic {
+    position: absolute;
+    margin-left: 34%;
+    z-index: 1;
+    margin-top: -12%;
+  }
+  
+  .f2pic {
+    position: absolute;
+    margin-left: 34%;
+    visibility: hidden;
+    z-index: 2;
+    margin-top: -15.3%;
+  }
+  
+  .f3pic {
+    position: absolute;
+    margin-left: 34%;
+    visibility: hidden;
+    z-index: 2;
+    margin-top: -18.6%;
+  }
+  
+  .f4pic {
+    position: absolute;
+    margin-left: 31.2%;
+    visibility: hidden;
+    z-index: 2;
+    margin-top: -23.5%;
+  }
+  
+  #myImg {
+    width: 270px;
+    height: 577px;
+  }
+  
+  #f1:hover .f1pic {
+    visibility: visible;
+  }
+  
+  #f2:hover .f2pic {
+    visibility: visible;
+  }
+  
+  #f3:hover .f3pic {
+    visibility: visible;
+  }
+  
+  #f4:hover .f4pic {
+    visibility: visible;
+  }
+  
